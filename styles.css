@@ -44,8 +44,8 @@ nav ul li{
   margin: 7px auto;
   border-radius: 15px;
   padding: 30px;
-  background-image: url("bg1.jpg");
-  background-size: 1050px 650px ;
+  background-image: url("bg.jpg");
+  background-size: cover ;
 }
 .bottom{
   background-color: black;
@@ -121,5 +121,10 @@ nav ul li{
   #masterSongName{
     color: black;
     opacity: 0;
+  }
+}
+@media only screen and (max-width: 1200px){
+  .container{
+    width: 95%;
   }
 }
