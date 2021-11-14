@@ -117,7 +117,7 @@ nav ul li{
   background-color: #1DB954;
 } */
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
   #masterSongName{
     color: black;
     opacity: 0;
@@ -127,5 +127,20 @@ nav ul li{
   .container{
     width: 90%;
     min-height: auto;
+  }
+  #myProgressBar{
+    width: 90vw;
+  }
+  .songItem{
+    height: 70px;
+    font-size: 2rem;
+    margin: 34px 0;
+  }
+  .songInfo{
+    font-size: 2rem;
+    margin-top: 25px;
+  }
+  .icons{
+    margin-top: 25px;
   }
 }
