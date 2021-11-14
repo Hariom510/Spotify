@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&family=Varela+Round&display=swap');
+
+body{
+  /* background-color: antiquewhite; */
+  background-color: #1DB954;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  height: 65px;
+  color: white;
+  list-style-type: none;
+}
+nav ul li{
+  padding: 0 8px;
+}
+.brand img{
+  width: 45px;
+  padding: 0 3px;
+}
+.brand{
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.container{
+  min-height: 62vh;
+  width: 70%;
+  font-family: 'Varela Round', sans-serif;
+  background-color: black;
+  color: white;
+  display: flex;
+  margin: 7px auto;
+  border-radius: 15px;
+  padding: 30px;
+  background-image: url("bg1.jpg");
+  background-size: 1050px 650px ;
+}
+.bottom{
+  background-color: black;
+  height: 15vh;
+  position: sticky;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  border-radius: 11px;
+  margin: auto 5px;
+  
+}
+.icons{
+  margin-top: 15px;
+  cursor: pointer;
+}
+#myProgressBar{
+  width: 80vw;
+  cursor: pointer;
+}
+.songItem{
+  height: 35px;
+  font-weight: bolder;
+  display: flex;
+  background-color: #F0E9D2;
+  color: black;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 35px;
+  padding: 10px;
+  
+}
+.songItem img{
+    width:45px;
+    border-radius: 35px;
+    /* margin: 0 12px; */
+}
+.timeSpan{
+  margin: 0 5px;
+}
+.timeSpan i{
+  cursor: pointer;
+}
+.songInfo{
+  position: absolute;
+  left: 10vw;
+  font-family: 'Varela Round', sans-serif;
+}
+.songInfo img{
+  width: 50px;
+  opacity: 0;
+  transition: opacity 0.1s ease-in;
+}
+.songItemPlay:hover{
+  
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.5);
+  color: #1DB954;
+}
+/* .songItem:hover{
+  opacity: 0.9;
+  background-color: #1DB954;
+} */
+
+@media only screen and (max-width: 700px) {
+  #masterSongName{
+    color: black;
+    opacity: 0;
+  }
+}
