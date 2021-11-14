@@ -123,8 +123,9 @@ nav ul li{
     opacity: 0;
   }
 }
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1300px){
   .container{
-    width: 95%;
+    width: 90%;
+    min-height: auto;
   }
 }
