@@ -117,12 +117,7 @@ nav ul li{
   background-color: #1DB954;
 } */
 
-@media only screen and (max-width: 900px) {
-  #masterSongName{
-    color: black;
-    opacity: 0;
-  }
-}
+
 @media only screen and (max-width: 1300px){
   .container{
     width: 90%;
@@ -137,10 +132,15 @@ nav ul li{
     margin: 34px 0;
   }
   .songInfo{
-    font-size: 1rem;
-    margin-top: 25px;
+    font-size: 1.6rem;
+    margin-top: 15px;
   }
   .icons{
     margin-top: 25px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #masterSongName{
+    opacity: 0;
   }
 }
